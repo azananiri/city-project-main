@@ -63,17 +63,17 @@ body {
   font-size: 20px;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: .6em;
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, .6);
   background-color: #0f1418;
   border-radius: 50px;
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: #253a49;
   border-radius: 50px;
 }
@@ -166,6 +166,7 @@ a {
 
 .nav-menu__item {
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .nav-menu__item--active>.nav-menu__link {
@@ -252,11 +253,16 @@ a {
   margin-top: 80px;
 }
 
+.content__text p {
+  margin-bottom: 25px;
+  text-align: right;
+}
+
 /* * Timeline */
 .timeline {
   font-family: KdamThmorPro;
   position: absolute;
-  top: 560px;
+  top: 65vh;
 }
 .timeline__item {
   margin-bottom: 100px;
@@ -300,6 +306,15 @@ a {
   .header__logo {
     font-size: 46px;
   }
+
+  .banner__title {
+    margin-top: 40px;
+  }
+
+  .content__text {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -336,6 +351,20 @@ a {
 
   .nav-menu {
     display: flex;
+  }
+
+  .timeline {
+    position: static;
+    margin-top: 40px;
+  }
+
+  .timeline__item {
+    margin-bottom: 40px;
+  }
+
+  .banner__content {
+    margin-top: 40px;
+    width: 100%;
   }
 }
 

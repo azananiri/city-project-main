@@ -18,10 +18,11 @@ body {
   font-family: KdamThmorPro;
   position: relative;
   padding-left: 8px;
-  margin-top: 60px;
+  margin-top: 20px;
   max-width: 350px;
   min-width: 220px;
-  overflow: scroll;
+  max-height: 78vh;
+  overflow: auto;
   font-size: 20px;
   width: 30vw;
 }
@@ -79,7 +80,7 @@ body {
   width: 12px;
   z-index: -1;
   left: 2px;
-  top: -4px;
+  top: 1px;
 }
 
 .slider {

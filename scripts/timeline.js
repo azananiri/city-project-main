@@ -28,7 +28,7 @@ let timelineActive = document.getElementById("timeline-section__active");
 
 // Timeline function
 let changeActive = (itemNumber) => {
-  timelineActive.style.top = 2 + 45 * itemNumber + "px";
+  timelineActive.style.top = 1 + 45 * itemNumber + "px";
 };
 
 // Timeline Events
